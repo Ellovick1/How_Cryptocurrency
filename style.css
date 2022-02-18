@@ -1,0 +1,44 @@
+body{
+    background-color: silver;
+    padding: 80px;
+}
+
+@media (max-width:500px) {
+    body{
+        background-color: silver;
+        padding: 0;
+    }
+}
+
+main{
+    background-color: white;
+    border-radius: 20px;
+    height: fit-content;
+}
+
+.home{
+    font-weight: 700;
+}
+
+.custom_padding{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.back_card{
+    height: 50px;
+    position: relative;
+    top: 90px;
+    margin-left: 25px;
+    width: 90%;
+    z-index: -1;
+    transform: rotateZ(3deg);
+    border-radius: 20px;
+    background-color: rgb(216, 210, 210);
+}
+
+footer{
+    background-color: rgb(23, 23, 37);
+    border-radius: 0 0 20px 20px;
+}
+
